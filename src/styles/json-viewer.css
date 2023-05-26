@@ -1,0 +1,24 @@
+.json-viewer-div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 50px 100px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    background: #fbfbfb;
+}
+
+.json-viewer-div>.react-json-view {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.file-name {
+    color: #706666;
+}
+
+.delete-icon {
+    float: right;
+    height: 20px;
+    cursor: pointer;
+}

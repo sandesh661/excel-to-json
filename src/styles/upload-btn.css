@@ -1,0 +1,22 @@
+.btn-label {
+    border: 2px solid gray;
+    color: #6d6d6d;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.upload-btn-wrapper img {
+    height: 20px;
+    width: 20px;
+    padding-right: 12px;
+}
+
+.upload-btn-wrapper input[type=file] {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
